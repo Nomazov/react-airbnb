@@ -1,0 +1,27 @@
+.rewiews__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rewiews__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 16px;
+}
+
+.rewiews {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rewiews__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewiews__title {
+    font-weight: bold;
+}

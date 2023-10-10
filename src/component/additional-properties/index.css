@@ -1,0 +1,9 @@
+.details__box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.details__value:not(:last-child)::after {
+    content: ",";
+}

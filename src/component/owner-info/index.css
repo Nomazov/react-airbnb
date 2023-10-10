@@ -1,0 +1,32 @@
+.owner__box {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.owner__box-about {
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+}
+
+.owner__box-about--value {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.owner__box-about--value:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.owner__img {
+    border-radius: 50%;
+    float: left;
+    margin-right:20px ;
+}

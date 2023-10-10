@@ -1,0 +1,26 @@
+.attraction__box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attraction__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attraction__item {
+    font-size: 16px;
+}
+
+.attraction__item--link {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    transition: 0.7s;
+}
+
+.attraction__item--link:hover {
+    opacity: 0.7 ;
+}
